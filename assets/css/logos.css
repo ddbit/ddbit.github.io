@@ -1,0 +1,20 @@
+
+.container-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logo-container {
+    margin: 10px;
+    text-align: center;
+    width: 150px;  /* Larghezza fissa per ogni logo */
+}
+.logo {
+    width: 100%;  /* Larghezza del logo rispetto al suo contenitore */
+    height: auto; /* Altezza automatica per mantenere le proporzioni */
+}
+@media only screen and (max-width: 600px) {
+    .logo-container {
+        width: 100%; /* Aumenta la larghezza su schermi più piccoli */
+    }
+}
