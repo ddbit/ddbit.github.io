@@ -38,7 +38,7 @@ const talks = [
     {
         "Anno": "2024",
         "Titolo": "I computer del futuro non si programmano, si addestrano",
-        "Evento": "IA for all",
+        "Evento": "IA for all. Presso Museo Ducati (BO)",
         "Organizzatore": "Lenovo/Ducati",
         "Link": "https://www.linkedin.com/posts/lenovo_lenovo-ai-activity-7174066252850561026-bGwg?utm_source=share&utm_medium=member_desktop",
         "Video": "",
