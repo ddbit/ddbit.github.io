@@ -1,6 +1,15 @@
 const talks = [
     {
         "Anno": "2024",
+        "Titolo": "Facts and Figures about Web3 Security: Where Do We Stand?",
+        "Evento": "ETHNaples 2024",
+        "Organizzatore": "NapulETH",
+        "Link": "https://x.com/NapulETH/status/1819281674464547179",
+        "Video": "",
+        "Slide": ""
+    },
+    {
+        "Anno": "2024",
         "Titolo": "Come funziona l’account abstraction, che vantaggi porta e quali sono le implicazioni su sicurezza e privacy",
         "Evento": "Privacy Week 2024",
         "Organizzatore": "PRIVACY WEEK S.R.L.",
