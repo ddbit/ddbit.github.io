@@ -1,6 +1,15 @@
 const talks = [
     {
         "Anno": "2024",
+        "Titolo": "Dialoghi su La Creazione di Token per il Commercio Locale e la Cultura.",
+        "Evento": "Festival ConnEtica. Navigare le transizioni ecologica e digitale per un futuro sostenibile",
+        "Organizzatore": "ConnEtica",
+        "Link": "https://www.connetica.org/site/connetica-2024/",
+        "Video": "https://www.youtube.com/watch?v=dJaMo9JC7vs",
+        "Slide": ""
+    },
+    {
+        "Anno": "2024",
         "Titolo": "Facts and Figures about Web3 Security: Where Do We Stand?",
         "Evento": "ETHNaples 2024",
         "Organizzatore": "NapulETH",
