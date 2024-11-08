@@ -28,6 +28,15 @@ const talks = [
     },
     {
         "Anno": "2024",
+        "Titolo": "Proteggere il futuro: strategie di cybersecurity per imprenditori",
+        "Evento": "Palazzo Doglio, 1 Marzo 2024",
+        "Organizzatore": "Club degli Imprenditori",
+        "Link": "https://www.facebook.com/photo.php?fbid=830024932473023&set=a.430502559091931&type=3",
+        "Video": "",
+        "Slide": ""        
+    },
+    {
+        "Anno": "2024",
         "Titolo": "Web 3.0 e Cybersecurity tra attacchi, vulnerabilità e furti",
         "Evento": "Casa Sanremo 2024",
         "Organizzatore": "Casa Sanremo Invest",
