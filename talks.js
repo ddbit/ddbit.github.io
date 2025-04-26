@@ -1,5 +1,14 @@
 const talks = [
     {
+        "Anno": "2025",
+        "Titolo": "Presentazione del libro 'Sun Tzu e l'Arte della Cyber Guerra'",
+        "Evento": "Innovazione e Sicurezza: Conformità NIS2 con AWS per le PMI",
+        "Organizzatore": "AWS Group Sardegna",
+        "Link": "https://www.opencampus.it/event/conformita-nis2-con-aws-per-le-pmi/",
+        "Video": "",
+        "Slide": ""
+    },
+    {
         "Anno": "2024",
         "Titolo": "Dialoghi su La Creazione di Token per il Commercio Locale e la Cultura.",
         "Evento": "Festival ConnEtica. Navigare le transizioni ecologica e digitale per un futuro sostenibile",
