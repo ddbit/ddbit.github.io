@@ -1,5 +1,23 @@
 const talks = [
     {
+        "Anno": "2026",
+        "Titolo": "Sistemi generativi e sicurezza: nascita del rischio",
+        "Evento": "AI meets Cybersecurity #1",
+        "Organizzatore": "The Net Value",
+        "Link": "https://thenetvalue.com/event/ai-meets-cybersecurity-1/",
+        "Video": "",
+        "Slide": "https://ddbit.github.io/slides/ai-meets-cybersecurity-1.pdf"
+    },
+    {
+        "Anno": "2026",
+        "Titolo": "Governare il rischio AI: architettura, compliance, semplificazione",
+        "Evento": "AI meets Cybersecurity #2",
+        "Organizzatore": "The Net Value",
+        "Link": "https://thenetvalue.com/event/ai-meets-cybersecurity-2-26-febbraio/",
+        "Video": "",
+        "Slide": "https://ddbit.github.io/slides/ai-meets-cybersecurity-2.pdf"
+    },
+    {
         "Anno": "2025",
         "Titolo": "Presentazione del libro 'Sun Tzu e l'Arte della Cyber Guerra'",
         "Evento": "Innovazione e Sicurezza: Conformità NIS2 con AWS per le PMI",
