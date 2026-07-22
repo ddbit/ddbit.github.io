@@ -1,132 +1,128 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventi</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
- 
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-        .center {
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
+	<head>
+		<title>Talks &amp; Events | Davide Carboni</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script defer src="https://eu.umami.is/script.js" data-website-id="260c6de4-e86b-4601-b0cd-919fa233dbd7"></script>
+		<style>
+			.talks-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin-top: 1.5em;
+			}
+			.talks-table th, .talks-table td {
+				padding: 10px 14px;
+				text-align: left;
+				border-bottom: 1px solid rgba(0,0,0,0.1);
+				vertical-align: top;
+			}
+			.talks-table thead th {
+				font-weight: 700;
+				font-size: 0.85em;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				color: #888;
+				border-bottom: 2px solid rgba(0,0,0,0.15);
+			}
+			.talks-table tbody tr:hover {
+				background-color: rgba(0,0,0,0.03);
+			}
+			.talks-table .anno {
+				white-space: nowrap;
+				font-weight: 600;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
 		<!-- Nav -->
-        <nav id="nav">
-            <ul class="container">
-                <li><a href="/#top">Top</a></li>
-                <li><a href="/#work">Work</a></li>
-                <!-- li><a href="#portfolio">Portfolio</a></li -->
-                <li><a href="/#contact">Contact</a></li>
-            </ul>
-        </nav>
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="/#top">Top</a></li>
+					<li><a href="/#work">Work</a></li>
+					<li><a href="events.html">Talks</a></li>
+					<li><a href="/#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-    <br>
-    <h2>Talks e partecipazione ad eventi</h2>
-    <a href="/">Davide Carboni Personal Page</a> &nbsp <a href="#"> Talks </a>
-    <table id="talksTable">
-        <thead>
-            <tr>
-                <th>Anno</th>
-                <th>Titolo Intervento</th>
-                <th>Evento</th>
-                <th>Organizzato da</th>
-                <th>Link</th>
-                <th>Video</th>
-                <th>Slide</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-        <script src="talks.js"></script>
-        <script src="script.js"></script>
-    </table>
+		<!-- Talks -->
+			<article id="talks" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Talks e partecipazione ad eventi</h2>
+						<p>Conferenze, webinar, workshop e interventi pubblici su Cybersecurity, AI e Blockchain.</p>
+					</header>
+					<table id="talksTable" class="talks-table">
+						<thead>
+							<tr>
+								<th>Anno</th>
+								<th>Titolo Intervento</th>
+								<th>Evento</th>
+								<th>Organizzato da</th>
+								<th>Link</th>
+								<th>Video</th>
+								<th>Slide</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+					<script src="talks.js"></script>
+					<script src="script.js"></script>
+				</div>
+			</article>
 
- 		<!-- Contact -->
-         <article id="contact" class="wrapper style4">
-            <div class="container medium">
-                <header>
-                    <h2>Contattami.</h2>
-                    <p>Invia la tua richiesta con il bottone sottostane.</p>
-                </header>
-                <div class="row">
-                    <div class="col-12">
-                        <form 	method="post" 
-                                action="mailto:dcarboni@gmail.com?subject=Contatto%20Web"
-                                enctype="text/plain" 
-                                target="_blank">
-                            <div class="row">
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Contattami.</h2>
+						<p>Invia la tua richiesta con il bottone sottostante.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post"
+								  action="mailto:dcarboni@gmail.com?subject=Contatto%20Web"
+								  enctype="text/plain"
+								  target="_blank">
+								<div class="row">
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Scrivi email" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="https://x.com/digitaldavide" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/davide-carboni-phd-7a510a1/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/ddbit" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>Ing. Davide Carboni PhD. Partita IVA 03800580924.
+								Albo sez A (CA) n. 7236 &nbsp;Studio in Viale La Plaia 15, 09123 Cagliari. Tel:+393293547783. PEC:davide.carboni@ingpec.eu</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
 
-                                <div class="col-12">
-                                    <ul class="actions">
-                                        <li><input type="submit" value="Scrivi email" /></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-12">
-                        <hr />
-                        <h3>Find me on ...</h3>
-                        <ul class="social">
-                            <li><a href="https://x.com/digitaldavide" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                            <li><a href="https://www.linkedin.com/in/davide-carboni-phd-7a510a1/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/ddbit" class="icon brands fa-github"><span target="_blank" class="label">Github</span></a></li>
-                            <!--	
-                            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                            <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-                            <li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-                        
-                            <li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-                            <li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-                            <li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-                            <li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-                            <li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-                            <li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-                            <li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-                            <li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-                            <li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-                            -->
-                        </ul>
-                        <hr />
-                    </div>
-                </div>
-                <footer>
-                    <ul id="copyright">
-                        <li>Ing. Davide Carboni PhD. Partita IVA 03800580924.  
-                            Albo sez A (CA) n. 7236  Studio in Viale La Plaia 15, 09123 Cagliari. Tel:+393293547783. PEC:davide.carboni@ingpec.eu</li>
-                    </ul>
-                </footer>
-            </div>
-        </article>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-
-
-</body>
+	</body>
 </html>
