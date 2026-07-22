@@ -1,6 +1,42 @@
 const talks = [
     {
         "Anno": "2026",
+        "Titolo": "AI: Cosa è vero e cosa è marketing",
+        "Evento": "DigitalTalks 2026",
+        "Organizzatore": "",
+        "Link": "https://www.youtube.com/watch?v=tj2eAfKFdpQ",
+        "Video": "https://www.youtube.com/watch?v=tj2eAfKFdpQ",
+        "Slide": ""
+    },
+    {
+        "Anno": "2026",
+        "Titolo": "Agenti AI in azienda: conformi by design. Tre domande che ogni organizzazione si pone",
+        "Evento": "AI Week 2026",
+        "Organizzatore": "AI Week",
+        "Link": "https://www.aiweek.it/",
+        "Video": "",
+        "Slide": "https://ddbit.github.io/slides/aiweek26-agenti-ai-conformi-by-design.pdf"
+    },
+    {
+        "Anno": "2026",
+        "Titolo": "Tomato Red – Presentazione progetto",
+        "Evento": "Premio Best Practices per l'Innovazione 2026",
+        "Organizzatore": "Premio Best Practices",
+        "Link": "https://www.premiobestpractices.it/progetti-2026/",
+        "Video": "",
+        "Slide": ""
+    },
+    {
+        "Anno": "2026",
+        "Titolo": "Sicurezza dei sistemi e rischi legati all'utilizzo dell'AI",
+        "Evento": "",
+        "Organizzatore": "",
+        "Link": "",
+        "Video": "",
+        "Slide": "https://ddbit.github.io/slides/sicurezza-sistemi-rischi-ai.pdf"
+    },
+    {
+        "Anno": "2026",
         "Titolo": "Sistemi generativi e sicurezza: nascita del rischio",
         "Evento": "AI meets Cybersecurity #1",
         "Organizzatore": "The Net Value",
