@@ -7,31 +7,72 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script defer src="https://eu.umami.is/script.js" data-website-id="260c6de4-e86b-4601-b0cd-919fa233dbd7"></script>
 		<style>
+			/* Tabella desktop */
+			.talks-wrap {
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+			}
 			.talks-table {
 				width: 100%;
 				border-collapse: collapse;
 				margin-top: 1.5em;
+				background: #fff;
 			}
 			.talks-table th, .talks-table td {
-				padding: 10px 14px;
+				padding: 11px 16px;
 				text-align: left;
-				border-bottom: 1px solid rgba(0,0,0,0.1);
+				border-bottom: 1px solid #ddd;
 				vertical-align: top;
+				color: #333;
 			}
 			.talks-table thead th {
 				font-weight: 700;
-				font-size: 0.85em;
+				font-size: 0.82em;
 				text-transform: uppercase;
-				letter-spacing: 0.05em;
-				color: #888;
-				border-bottom: 2px solid rgba(0,0,0,0.15);
+				letter-spacing: 0.06em;
+				color: #555;
+				background: #f0f0f0;
+				border-bottom: 2px solid #bbb;
 			}
 			.talks-table tbody tr:hover {
-				background-color: rgba(0,0,0,0.03);
+				background-color: #f7f7f7;
 			}
-			.talks-table .anno {
-				white-space: nowrap;
-				font-weight: 600;
+			.talks-table td a {
+				color: #3a7abf;
+			}
+			/* Card layout su mobile */
+			@media screen and (max-width: 736px) {
+				.talks-table thead {
+					display: none;
+				}
+				.talks-table, .talks-table tbody, .talks-table tr, .talks-table td {
+					display: block;
+					width: 100%;
+				}
+				.talks-table tr {
+					border: 1px solid #ddd;
+					border-radius: 6px;
+					margin-bottom: 1em;
+					padding: 0.5em 0;
+					background: #fff;
+				}
+				.talks-table td {
+					border-bottom: none;
+					padding: 6px 14px;
+					color: #333;
+				}
+				.talks-table td[data-label]::before {
+					content: attr(data-label) ": ";
+					font-weight: 700;
+					font-size: 0.8em;
+					text-transform: uppercase;
+					color: #777;
+					display: block;
+					margin-bottom: 2px;
+				}
+				.talks-table td:empty {
+					display: none;
+				}
 			}
 		</style>
 	</head>
@@ -48,27 +89,29 @@
 			</nav>
 
 		<!-- Talks -->
-			<article id="talks" class="wrapper style2">
+			<article id="talks" class="wrapper style1">
 				<div class="container">
 					<header>
 						<h2>Talks e partecipazione ad eventi</h2>
 						<p>Conferenze, webinar, workshop e interventi pubblici su Cybersecurity, AI e Blockchain.</p>
 					</header>
-					<table id="talksTable" class="talks-table">
-						<thead>
-							<tr>
-								<th>Anno</th>
-								<th>Titolo Intervento</th>
-								<th>Evento</th>
-								<th>Organizzato da</th>
-								<th>Link</th>
-								<th>Video</th>
-								<th>Slide</th>
-							</tr>
-						</thead>
-						<tbody>
-						</tbody>
-					</table>
+					<div class="talks-wrap">
+						<table id="talksTable" class="talks-table">
+							<thead>
+								<tr>
+									<th>Anno</th>
+									<th>Titolo Intervento</th>
+									<th>Evento</th>
+									<th>Organizzato da</th>
+									<th>Link</th>
+									<th>Video</th>
+									<th>Slide</th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
 					<script src="talks.js"></script>
 					<script src="script.js"></script>
 				</div>
